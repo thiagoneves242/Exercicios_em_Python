@@ -8,3 +8,13 @@ while divisor <= n:
     if n % divisor == 0:
         print(divisor)
 
+"""
+segunda forma 
+"""
+print("segunda forma")
+n2 = int(input("= "))
+divisor2 = 0
+for i in range(0, n2):
+    divisor2 += 1
+    if n2 % divisor2 == 0:
+        print(divisor2)

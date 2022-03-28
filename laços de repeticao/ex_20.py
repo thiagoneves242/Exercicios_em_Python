@@ -1,7 +1,7 @@
 """
 ler o uma sequência de números inteiros e determine
 se eles são pares ou não. Deverá ser informado o número
-de dados lidos e números de pares . o processo
+de dados lidos e números de pares. O processo
 só termina quando for digitado 1000
 """
 list_par = []
@@ -23,8 +23,8 @@ while True:
     break
 print(f"quantidade de números pares digitados= {qtd_par}")
 print(f"dados lidos= {dados_lidos - 1}")
-print(" e ".join(list_par),"é número(s) par(es)! ")
-print(" e ".join(list_impar)," é número(s) impar(es)!")
+print(" e ".join(list_par), "é número(s) par(es)! ")
+print(" e ".join(list_impar), " é número(s) impar(es)!")
 
 
 """list_impar = [str(i) for i in list_impar]"""

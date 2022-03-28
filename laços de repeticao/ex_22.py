@@ -15,20 +15,19 @@ while True:
         media = int(soma / cont)
     else:
         break
-print(f"Media={media}")
+print(media)
 
 """
-segunda forma 
+segunda forma
 """
 print("segunda forma")
-soma2, media2, cont2 = 0, 0, 0,
-notas2 = 0
+soma2, media2, cont2 = 0, 0, 0
 for i in range(0, 1000):
-    notas2 = int(input("notas= "))
+    notas2 = int(input("nota= "))
     if 10 <= notas2 <= 20:
         soma2 += notas2
         cont2 += 1
         media2 = int(soma2 / cont2)
     else:
         break
-print(f"Media={media2}")
+print(media2)

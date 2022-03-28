@@ -1,6 +1,6 @@
 """
- Escreva um algoritmo que leia um numero inteiro
- entre 100 e 999 e imprima na saída cada um dos algarismos que compoem o número
+ Escreva um algoritmo que leia um número inteiro
+ entre 100 e 999 e imprima na saída cada um dos algarismos que compõe o número
 """
 loop = True
 while loop:
